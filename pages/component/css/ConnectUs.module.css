@@ -1,0 +1,109 @@
+.section{
+    background: url("../img/26577.jpg") no-repeat;
+    background-size: cover;
+    background-position-y: -59px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.formconnect{
+    display: grid;
+}
+.height100vh{
+    height: 90vh;
+}
+.ConnectI{
+    border: 0;
+    background: #EBECF0;
+    outline: none;
+    height: 6vh;
+    border-radius: 50px;
+    font-size: 1vw;
+    padding: 10px;
+    box-shadow: inset 2px 2px 5px #0f152a, inset -5px -5px 10px #FFF, 0px 0px 43px 0px white;
+    display: flex;justify-content: center; align-items: center;
+}
+.ConnectTextarea{
+    border: 0;
+    background: #EBECF0;
+    outline: none;
+    height: 20vh;
+    border-radius: 15px;
+    font-size: 1vw;
+    padding: 10px;
+    box-shadow: inset 2px 2px 5px #0f152a, inset -5px -5px 10px #FFF, 0px 0px 43px 0px white;
+    resize:none
+}
+.ConnectI::placeholder{
+    color: black;
+    text-align: center;
+}
+.titleform{
+    text-shadow: 0 0 2px white, 0 0 3px #a2a2a2, 0 0 4px black;
+    font-size: 3vw;
+    font-weight: bolder;
+}
+.titleform::selection{
+    background: rgba(65,65,65,0.61);
+}
+.btnSuBmit{
+    margin-top: 3vh;
+    box-shadow: inset 0 0 14px 4px black, 0 0 30px 4px #28a745;
+    height: 6vh;
+    border: 0;
+    border-radius: 50px;
+    font-size: 1.2vw;
+    font-weight: bolder;
+}
+.tdphone{
+    font-size: 2vw;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 52px;
+    box-shadow: inset 0 0 11px 1px #000000, 0 0 20px 4px #ffffff;
+    transition: all 1s;
+}
+.tdphoneNu{
+    font-size: 2vw;
+    background: black;
+    box-shadow: inset 0 0 11px 1px white, 0 0 20px 4px black;
+    color: antiquewhite;
+    border-radius: 50px;
+    transition: all 1s;
+}
+.trtable:hover .tdphone{
+    color: white;
+    background: black;
+     box-shadow: inset 0 0 11px 1px white, 0 0 20px 4px black;
+ }
+.trtable:hover .tdphoneNu{
+    color: #000000;
+    background: #ffffff;
+    box-shadow: inset 0 0 11px 1px #000000, 0 0 20px 4px #ffffff;
+}
+@media only screen and (max-width: 1000px) {
+    .height100vh{
+        height: auto;
+    }
+    .section{
+        background-position-y: 0;
+    }
+    .formconnect{
+        width: 75% !important;
+    }
+    .btnSuBmit{
+        font-size: 3vw;
+    }
+    .ConnectI::placeholder{
+        font-size: 3vw;
+    }
+    .ConnectI{
+        font-size: 4vw;
+    }
+    .ConnectTextarea{
+        font-size: 3vw;
+    }
+    .titleform{
+        font-size: 5vw;
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "/Article": "pages/Article.js",
+  "/Articles/Layouts": "pages/Articles/Layouts.html",
+  "/Articles": "pages/Articles.js",
+  "/ConnectUs": "pages/ConnectUs.html",
+  "/Cv": "pages/Cv.html",
+  "/_app": "pages/_app.js",
+  "/component/index/BlogSection": "pages/component/index/BlogSection.html",
+  "/component/index/FiveSection": "pages/component/index/FiveSection.html",
+  "/component/index/FourSection": "pages/component/index/FourSection.html",
+  "/component/index/OneSection": "pages/component/index/OneSection.html",
+  "/component/index/ThreeSection": "pages/component/index/ThreeSection.html",
+  "/component/index/TwoSection": "pages/component/index/TwoSection.html",
+  "/header/menu": "pages/header/menu.html",
+  "/": "pages/index.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

@@ -1,0 +1,516 @@
+@font-face {
+    font-family: Lalezar;
+    src: url("../font/Lalezar-Regular.ttf");
+}
+
+.backone {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/index/photo-1446776653964-20c1d3a81b06.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.btnmenu {
+    margin-right: 3vw;
+    position: fixed;
+    z-index: 6600;
+    border: 0;
+    background: rgba(0,0,0,0);
+    outline: none !important;
+}
+
+.ulmenu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.limenu {
+    width: 8%;
+    font-size: 1vw;
+    border-left: 1px solid #ff002d;
+    font-weight: 900;
+    color: white;
+}
+
+.limenu:nth-child(1) {
+    border-right: 1px solid #ff002d;
+}
+
+.Texttopdouble {
+    transform: rotate(90deg);
+}
+
+.centertopte {
+    height: 70vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.title {
+    font-size: 3vw;
+    font-family: Lalezar;
+    animation: TitleAnime 2s;
+    color: #e8e8e8;
+    text-shadow: 0px 0px 10px black;
+}
+
+@keyframes TitleAnime {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.undertitle {
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.centerclass {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.imgmoues {
+    width: 50%;
+    cursor: pointer;
+    animation: anime 2s infinite;
+}
+
+@keyframes anime {
+    0% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: -2vh;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+.btnstoper {
+    width: 10vw;
+    background: rgba(255, 46, 0, 0.25);
+    color: white;
+    height: 5vh;
+    margin: 10px;
+    border-radius: 50px;
+    font-weight: 900;
+    font-size: 1vw;
+    border: 2px solid white;
+    transition: all 0.8s;
+    outline: none !important;
+}
+.btnstoper>a{
+    color: white;
+    text-decoration: none;
+}
+
+.btnstoper:hover {
+    background: rgba(255, 46, 0, 0.1);
+    transform: scale(1.1);
+}
+
+.titlefromtwo {
+    border-bottom: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #ffffff, #ff1f00, #ffffff);
+    height: 8vh;
+    font-family: Lalezar;
+}
+
+.textslide2 {
+    font-size: 1.1vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    font-weight: 900;
+    text-shadow: 0px 3px 33px yellowgreen;
+    margin-top: 4vh;
+}
+
+.animeslidetexttwo {
+    animation: textfromtwo 2S;
+}
+
+@keyframes textfromtwo {
+    0% {
+        transform: scale(0);
+    }
+    80% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.heighvhdiv {
+    height: auto;
+}
+
+.CardSecctionThree {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0), gray);
+    background-size: 600%;
+    color: white;
+    width: 95%;
+    border-radius: 5px;
+    padding: 30px;
+    animation: anim3 10s infinite;
+}
+
+@keyframes anim3 {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 60%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+.ulmenuFour {
+    list-style: none;
+    width: 100%;
+}
+
+.limenuFour {
+    font-size: 2vw;
+    font-weight: bold;
+    margin-top: 2vh;
+    border-bottom: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #ffffff, #ff1f00, #000000);
+}
+
+.catgoryes {
+    height: 33.33vh;
+}
+
+.imgfour:hover {
+    filter: opacity(0.5);
+}
+
+.h3tozihat {
+    position: relative;
+    top: -18vh;
+    text-align: center !important;
+    display: none;
+    color: white;
+}
+
+.catgoryes:hover .h3tozihat {
+    display: block;
+}
+
+.limenublog {
+    width: 100%;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    list-style: none;
+    background: rgb(0 0 0 / 41%);
+    padding: 1vw;
+    box-shadow: 0px 0px 16px 0px grey;
+}
+
+.yellowcolor {
+    color: #ffda00;
+}
+
+.fontsize {
+    font-size: 1vw;
+    margin-top: 2vh;
+    text-align: justify;
+}
+
+.fonttextblog {
+    font-weight: lighter;
+}
+
+.blogbg {
+    background: linear-gradient(45deg, #90c1f5, rgb(255 255 255), rgb(174 219 243), rgb(0 255 161 / 17%), rgb(255 255 255), #ffda00);
+    animation: bgblog 10s infinite;
+}
+
+
+.fontbars {
+    font-size: 2vw;
+    color: #e8e8e8;
+    z-index: 900;
+    position: relative;
+}
+
+.fontbars:hover {
+    transition: 0.5s;
+    color: #ffffff;
+    transform: scale(1.2);
+}
+
+.Heigytthree {
+    height: 100vh;
+    background: url("../img/index/nathan-anderson-L95xDkSSuWw-unsplash.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.HeigytFour {
+    height: 100vh;
+}
+
+.FiveHeightImg {
+    height: 100vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.HelightListFour {
+    height: 70vh;
+}
+
+.Heigytfive {
+    height: 100vh;
+}
+
+
+
+.CardMenu{
+    margin-top: 0;
+}
+.menu {
+    width: 70vw;
+    height: 70vw;
+    transform: rotate(45deg);
+    left: 60vw;
+    background: linear-gradient(45deg, #ffffff00, #ff0000de,#ff0000);
+    border-radius: 9%;
+    position: absolute;
+    transition: 5s;
+    animation: menuanime 5s;
+}
+
+.ulmenuresponsive {
+    list-style: none;
+    font-size: 1.5vw;
+    font-weight: 800;
+    z-index: 5555;
+    position: relative;
+}
+
+.limenureposnsive {
+    margin-top: 8vh;
+    margin-right: 5vh;
+    text-shadow: 0px 1px 1px #4d4d4d;
+    color: #222;
+    transition: all 1s;
+    cursor: pointer;
+    z-index: 555;
+}
+
+.limenureposnsive a {
+    text-decoration: none;
+    color: white;
+}
+
+.limenureposnsive:hover {
+    transform: scale(1.2);
+}
+
+.cardmenu {
+    position: relative;
+}
+.navheader{
+    width: 20vw;
+}
+.header {
+    z-index: 900;
+    position: fixed !important;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+                            /*sectiontwo*/
+
+.sricon{
+    width: 30%;
+    border: 2px solid black;
+    font-size: 5vw;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    height: 17vh;
+}
+.srtext{
+    padding: 1vw;
+}
+.TextSrZero{
+    text-align: justify;
+    text-align-last: center;
+    font-size: 1vw;
+    line-height: 2;
+}
+.sricon:hover{
+    background: #db3444;
+    color: white;
+    border: 2px solid white;
+}
+.withblogsection{
+    width: 50%;
+}
+
+
+@media only screen and (max-width: 1218px) {
+    .menu{
+        width: 79%;
+    }
+    .CardMenu{
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+        left: 5vw;
+    }
+
+}
+@media only screen and (max-width: 1000px) {
+    .ulmenuresponsive{
+        padding-left:0vw !important;
+        text-align: center;
+        width: 40vw;
+        z-index: 5555;
+        margin-bottom: 10vh;
+    }
+    .limenureposnsive{
+        font-size: 4vw;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .menu{
+        width: 50vw;
+        height: 100%;
+        transform: rotate(0deg);
+        left: auto;
+        top: 0vw;
+        border-radius: 0;
+    }
+    .cardmenu{
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 40vw !important;
+        font-size: 1vw !important;
+        margin-right: 0!important;
+    }
+    .CardMenu{
+        margin-right: 0 !important;
+        text-align: center;
+        margin-top: 79vh !important;
+        left: 0vw;
+        width: 50vw;
+        max-width: 28rem !important;
+    }
+    .textcardmenu{
+        font-size: 3vw;
+    }
+    .CardSecctionThree {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .Heigytthree {
+        height: 100%;
+    }
+
+    .HeigytFour {
+        height: 100%;
+    }
+
+    .HelightListFour {
+        height: auto;
+    }
+
+    .limenuFour {
+        font-size: 2vw;
+    }
+
+    .Heigytfive {
+        height: auto;
+    }
+
+    .FiveHeightImg {
+        height: auto;
+    }
+
+    .textslide2 {
+        font-size: 1.5vw;
+    }
+    .navheader{
+        width: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+.withblogsection{
+    width: 75%;
+}
+    .sricon{
+        width: 40vw;
+        height: 25vw;
+        font-size: 12vw;
+        margin-left: 1vw;
+    }
+    .TextSrZero{
+        font-size: 4vw;
+    }
+    .title {
+        font-size: 6vw;
+    }
+     .heighvhdiv{
+         height: auto;
+     }
+    .undertitle {
+        font-size: 5vw;
+    }
+
+    .btnstoper {
+        width: 50vw;
+        font-size: 5vw;
+    }
+
+    .fontbars {
+        font-size: 8vw;
+    }
+
+    .textslide2 {
+        margin-top: 4vh;
+        font-size: 3vw;
+    }
+
+    .limenuFour {
+        font-size: 2.5vh;
+        text-align: center;
+    }
+
+    .textslide2 {
+        font-size: 2.8vw;
+    }
+    .fontsize{
+        font-size: 4vw;
+    }
+}

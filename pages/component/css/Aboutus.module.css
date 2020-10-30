@@ -1,0 +1,97 @@
+/*.sectionTw{*/
+/*    background: url("../img/2729411.jpg");*/
+/*    background-size: contain;*/
+/*}*/
+/*.textTop{*/
+/*    text-shadow: 0 0 5px rgba(0, 0, 0, 0.32);*/
+/*    font-size: 1.4vw;*/
+/*    line-height: 5vh;*/
+/*    background: #ffffff9c;*/
+/*    border-radius: 17px;*/
+/*}*/
+/*.chart{*/
+/*    height: 3vh;*/
+/*    background: rgba(0,0,0,0);*/
+/*}*/
+/*.chartDS{*/
+/*    color: white;*/
+/*    font-weight: 900;*/
+/*    font-size: 1vw;*/
+/*    box-shadow: inset -15px 0 6px 1px red, 0 0 10px 2px black;*/
+/*    border-radius: 0 24px 24px 0;*/
+/*}*/
+/*.chartDS:hover{*/
+/*    transition: all 1s;*/
+/*    background: #0d6efd !important;*/
+/*}*/
+/*.chartItem{*/
+/*    width: 20%;*/
+/*    color: white;*/
+/*    font-size: 1.3vw;*/
+/*    font-weight: 900;*/
+/*    text-shadow: 0 0 5px rgb(255, 255, 255);*/
+/*}*/
+/*.textabout{*/
+/*    line-height: 4vh;*/
+/*    font-size: 1.3vw;*/
+/*    text-align: justify;*/
+/*    color: black;*/
+/*    background: #ffffff9c;*/
+/*    padding: 16px;*/
+/*    border-radius: 17px;*/
+/*}*/
+
+/*.imgerabout{*/
+/*    box-shadow: 5px 11px 16px 10px, 6px 12px 30px 1px #003179;*/
+/*    border-radius: 10px;*/
+/*}*/
+/*.imgerabout:hover{*/
+/*    transition: all 1s;*/
+/*    transform: scale(1.1);*/
+/*}*/
+
+/*@media only screen and (max-width: 1000px) {*/
+/*    .textTop,.textabout{*/
+/*        font-size: 3vw;*/
+/*        line-height: 6vh;*/
+/*    }*/
+/*    .imgerabout{*/
+/*        height: 90% !important;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 600px) {*/
+/*    .textTop ,.textabout{*/
+/*        font-size: 4vw;*/
+/*    }*/
+/*}*/
+
+
+.slidetop {
+    width: 100%;
+    height: 90.7vh;
+}
+
+.imgfrom {
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    box-shadow: 0 0 10px 5px black;
+    transition:all 1s;
+}
+.imgfrom:hover{
+    transform: scale(1.1);
+}
+.aboutself{
+   text-align: justify;
+    font-size:1.1vw;
+    font-weight: bolder;
+    color: #5d5d5d;
+}
+@media only screen and (max-width: 1000px) {
+    .aboutself {
+        font-size: 3vw;
+    }
+}
+img{
+    user-select: none;
+}

@@ -1,0 +1,101 @@
+.icondashbord {
+    font-size: 2vw;
+}
+
+.About {
+    margin-top: 6vh;
+    font-size: 4vw;
+    margin-bottom: 2vh;
+    font-weight: 900;
+    color: white;
+}
+
+.Specifications {
+    color: #b400ff;
+    font-style: italic;
+    font-size: 1vw;
+    font-weight: 600;
+    margin-bottom: 4vh;
+    word-spacing: 1vw;
+}
+
+.Description {
+    margin-top: 4vh;
+    font-size: 1.5vw;
+    color: #b5b5b5;
+}
+
+.imging {
+    box-shadow: 0 0 15px 10px black;
+    position: relative;
+    z-index: 1;
+}
+
+.titleskill {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.Descriptionskikk {
+    color: #b5b5b5;
+    font-size: 1vw;
+}
+
+.iconcv {
+    color: #b400ff;
+    font-size: 1.2vw;
+}
+
+.Name {
+    width: 100%;
+    z-index: 2;
+    height: 90%;
+}
+
+.Name h1 {
+    font-size: 3vw;
+}
+
+.rowhight {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 1000px) {
+    .rowhight {
+        height: auto;
+    }
+    .iconcv {
+        font-size: 3vw;
+    }
+    .titleskill{
+        font-size: 4vw;
+    }
+    .Descriptionskikk , .Description , .Specifications{
+        font-size: 2vw;
+    }
+    .padcol{
+        padding-top: 35%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .iconcv {
+        font-size: 4vw;
+    }
+     .About{
+         font-size: 8vw;
+     }
+    .titleskill{
+        font-size: 6vw;
+    }
+    .icondashbord{
+        font-size: 5vw;
+        z-index: 22;
+    }
+    .Descriptionskikk , .Description , .Specifications{
+        font-size: 4vw;
+    }
+    .padcol{
+        padding-top: 75%;
+    }
+}
